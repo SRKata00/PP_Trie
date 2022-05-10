@@ -1,8 +1,6 @@
 #include <string>
 #include <memory>
-//#include <locale>
 #include "Trie.h"
-//#include <algorithm>
 
 
 Trie::Trie() : mHead(std::make_shared<Node>())
